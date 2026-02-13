@@ -7,9 +7,9 @@ const TaskForm = () => {
             <input type="text" className="task_input" placeholder="Enter task details"/>
             <div className="task_form_bottom">
                 <div>
-                    <Tag />
-                    <Tag />
-                    <Tag />
+                    <Tag tagName="DEV" />
+                    <Tag tagName="QA" />
+                    <Tag tagName="Product Owner" />
                 </div>
                 <div>
                     <select className="task_status">
