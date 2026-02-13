@@ -1,8 +1,16 @@
 import React from 'react'
-
+import "./app.css";
 const App = () => {
   return (
-    <div>Hello Akanksha</div>
+    <div className="app">
+      <header className="app_header">Jira Board</header>
+      <main className="app_main">
+        <section className="task_column">Section 1</section>
+        <section className="task_column">Section 1</section>
+        <section className="task_column">Section 1</section>
+        <section className="task_column">Section 1</section>
+      </main>
+    </div>
   )
 }
 
